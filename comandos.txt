@@ -1,0 +1,10 @@
+grep -i -o 'quijote' el_quijote.txt | nl
+grep -i -L 'quijote' el_quijote.txt | wc -l
+git grep -i -o -c 'quijote' 
+git grep -i -o -c 'quijote'
+sed -i 's/\<panza\>/barriga/g' el_quijote.txt
+sed 's/panza/barriga/gi ' el_quijote.txt
+head -c 4 el_quijote.txt
+head -c 4000 el_quijote.txt
+sed -n '14,25p' el_quijote.txt
+sort -f -r el_quijote.txt
